@@ -1,0 +1,23 @@
+/* fuentes de mi portafolio  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+/* reglas */
+@layer base {
+    html{
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.fondoHome {
+    /* background-image: url("./assets/img-home/fondo.png"); */
+    background: #0F0E17;
+    border-radius: 0px 0px 299px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+}
