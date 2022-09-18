@@ -16,7 +16,7 @@ import { Link } from "react-scroll"
 const Home = () => {
   return (
     <div
-      name="home"
+      name="Inicio"
       // bg-gradient-to-b from-black via-black to-gray-800
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800">
       <div

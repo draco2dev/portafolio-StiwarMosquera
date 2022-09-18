@@ -6,6 +6,9 @@ module.exports = {
     // fontFamily: {
     //   signature: ["great vives"],
     // },
+    // colors: {
+    //   'c': '#fffaf0',
+    // },
   },
   plugins: [],
 }

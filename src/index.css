@@ -15,9 +15,10 @@
 
 .fondoHome {
     /* background-image: url("./assets/img-home/fondo.png"); */
-    background: #0F0E17;
-    border-radius: 0px 0px 299px 0px;
+    
+    border-radius: 0px 0px 10500px 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    left: 0;
+    
+    left: 55;
 }
