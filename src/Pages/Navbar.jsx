@@ -32,7 +32,11 @@ const links = [
     link: "portafolio",
     style: "text-orange",
   },
-  
+  {
+    id: 5,
+    link: "Contacto",
+    style: "text-orange",
+  },
 ];
 
 const Navbar = () => {
