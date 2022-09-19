@@ -1,23 +1,28 @@
 import React from "react";
 import img from "../assets/img-portafolio/img-rick-and-morty.png";
+import img2 from "../assets/img-portafolio/img-galeria.png";
+import img3 from "../assets/img-portafolio/img-pokeapi.png";
+import img4 from "../assets/img-portafolio/img-portafolio.png";
+import img5 from "../assets/img-portafolio/img-contador.png";
+import img6 from "../assets/img-portafolio/img-tareas.png";
 
 const Portafolio = () => {
 
     const portafolio =[
         {
             id: 1,
-            src: img,
+            src: img2,
             despcipcion: 'Página de Galería ',
         },
         {
             id: 2,
-            src: img,
+            src: img6,
             despcipcion: 'App De Tareas ToDoList',
         },
         {
             id: 3,
-            src: img,
-            despcipcion: 'Página de Galería',
+            src: img4,
+            despcipcion: 'Página de Portafolio',
         },
         {
             id: 4,
@@ -26,13 +31,13 @@ const Portafolio = () => {
         },
         {
             id: 5,
-            src: img,
+            src: img3,
             despcipcion: 'App PokeApi',
         },
         {
             id: 6,
-            src: img,
-            despcipcion: 'Página de Galería',
+            src: img5,
+            despcipcion: 'Página de Contador',
         },
     ]
   return (
