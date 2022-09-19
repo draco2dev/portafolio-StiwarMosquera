@@ -34,7 +34,7 @@ const links = [
   },
   {
     id: 5,
-    link: "Contacto",
+    link: "Contacto 1",
     style: "text-orange",
   },
 ];
