@@ -20,7 +20,7 @@ const Experiencia = () => {
     {
       id: 3,
       src: html,
-      title: "DIPLOMADO {REACT} - FUNDACION MARIA LUISA DE MORENO",
+      title: "DIPLOMADO {REACT} ",
       style: "shadow-orange-500",
     },
   ];
