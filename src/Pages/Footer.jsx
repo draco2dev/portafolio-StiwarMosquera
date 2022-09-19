@@ -25,6 +25,7 @@ const Footer = () => {
       >
         Inicio
       </button>
+      
 
       <div
         className="col-span-2 md:row-start-1 md:col-start-2

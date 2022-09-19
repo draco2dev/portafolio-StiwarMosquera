@@ -28,7 +28,7 @@ const Home = () => {
             {/* <h3 className="text-2xl sm:text-5xl font-bold text-white"> Hola, Soy</h3> */}
           {/* <h2 className="text-4xl sm:text-7xl font-bold text-white">Hola icono,ssss sossss
            sssssss  ssssssssy </h2> */}
-           <p className=" pt-20 text-2xl sm:text-4xl sm:pb-4 font-bold text-white text-center">
+           <p className=" pt-0 text-2xl sm:text-4xl sm:pb-4 font-bold text-white text-center">
            Hola, Soy 
           </p>
           
@@ -51,7 +51,7 @@ const Home = () => {
             Apasionado por los proyectos que emprende.
           </p>
 
-          <div className="items-center grid grid-cols-3 sm:grid-cols-3">
+          <div className=" grid grid-cols-2 sm:grid-cols-3 items-center">
             <button className="group text-white w-fit px-6 py-3 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer">
               {/* shadow-md shadow-orange-600 */}
