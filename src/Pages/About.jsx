@@ -16,7 +16,7 @@ const About = () => {
           Soy desarrollador con dos de experiencia, mi enfoque esta sobre el
           desarrollo front-end aunque ya he tenido la oportunidad de interactuar
           con tecnologías de back-end como java, php, también estoy
-          familiarizado con metodologías agiles como SCRUM.{" "}
+          familiarizado con metodologías agiles como SCRUM ..{" "}
         </p>
         <br />
         {/* <p className="text-xl ">
