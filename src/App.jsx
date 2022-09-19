@@ -11,7 +11,7 @@ import Experiencia from "./Pages/Experiencia";
 
 import Footer from "./Pages/Footer";
 
-import Contacto from "./Pages/Contacto";
+
 function App() {
   return (
     <div>
@@ -20,7 +20,7 @@ function App() {
       <About />
       <Experiencia />
       <Portafolio />
-      <Contacto />
+      
       <br />
       <br />
       <br />
