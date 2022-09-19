@@ -7,26 +7,36 @@ const Portafolio = () => {
         {
             id: 1,
             src: img,
-            despcipcion: 'Timbeke',
+            despcipcion: 'Página de Galería ',
         },
         {
             id: 2,
             src: img,
-            despcipcion: 'stiwar uno',
+            despcipcion: 'App De Tareas ToDoList',
         },
         {
             id: 3,
             src: img,
-            despcipcion: 'stiwar dos',
+            despcipcion: 'Página de Galería',
         },
         {
             id: 4,
             src: img,
-            despcipcion: 'stiwar tres',
+            despcipcion: 'App Rick and Morty',
+        },
+        {
+            id: 5,
+            src: img,
+            despcipcion: 'App PokeApi',
+        },
+        {
+            id: 6,
+            src: img,
+            despcipcion: 'Página de Galería',
         },
     ]
   return (
-    <div name="portafolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white
+    <div name="portafolio" className="bg-gradient-to-b from-black to-gray-100 w-full text-white
      md:h-screen">
 
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -52,8 +62,8 @@ const Portafolio = () => {
                         </p>
                     </div>
                     <div className="flex items-center justify-center">
-                        <button className="border w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
-                        <button className="border w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Github</button>
+                        <button className="border w-1/2 px-6 py-3 m-4 bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105">Demo</button>
+                        <button className="border w-1/2 px-6 py-3 m-4 bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105">Github</button>
                     </div>
                 </div>
            

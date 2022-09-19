@@ -39,77 +39,83 @@ const Experiencia = () => {
       title: "SOLARISSOFT 2019 ",
       style: "shadow-orange-500",
     },
-    
+    {
+      id: 3,
+      src: html,
+      title: "TELMET",
+      style: "shadow-orange-500",
+    },
   ];
 
-//   const portafolio =[
-//     {
-//         id: 1,
-//         // src: img,
-//         despcipcion: 'Página de Galería ',
-//     },
-//     {
-//         id: 2,
-//         // src: img,
-//         despcipcion: 'App De Tareas ToDoList',
-//     },
-//     {
-//         id: 3,
-//         // src: img,
-//         despcipcion: 'Página de Galería',
-//     },
-//     {
-//         id: 4,
-//         // src: img,
-//         despcipcion: 'App Rick and Morty',
-//     },
-//     {
-//         id: 5,
-//         // src: img,
-//         despcipcion: 'App PokeApi',
-//     },
-//     {
-//         id: 6,
-//         // src: img,
-//         despcipcion: 'Página de Galería',
-//     },{
-//       id: 1,
-//       // src: img,
-//       despcipcion: 'Página de Galería ',
-//   },
-//   {
-//       id: 2,
-//       // src: img,
-//       despcipcion: 'App De Tareas ToDoList',
-//   },
-//   // {
-//   //     id: 3,
-//   //     // src: img,
-//   //     despcipcion: 'Página de Galería',
-//   // },
-//   // {
-//   //     id: 4,
-//   //     // src: img,
-//   //     despcipcion: 'App Rick and Morty',
-//   // },
-//   // {
-//   //     id: 5,
-//   //     // src: img,
-//   //     despcipcion: 'App PokeApi',
-//   // },
-//   // {
-//   //     id: 6,
-//   //     // src: img,
-//   //     despcipcion: 'Página de Galería',
-//   // },
-// ]
+  const portafolio =[
+    {
+        id: 1,
+        // src: img,
+        despcipcion: 'Página de Galería ',
+    },
+    {
+        id: 2,
+        // src: img,
+        despcipcion: 'App De Tareas ToDoList',
+    },
+    {
+        id: 3,
+        // src: img,
+        despcipcion: 'Página de Galería',
+    },
+    {
+        id: 4,
+        // src: img,
+        despcipcion: 'App Rick and Morty',
+    },
+    {
+        id: 5,
+        // src: img,
+        despcipcion: 'App PokeApi',
+    },
+    {
+        id: 6,
+        // src: img,
+        despcipcion: 'Página de Galería',
+    },{
+      id: 1,
+      // src: img,
+      despcipcion: 'Página de Galería ',
+  },
+  {
+      id: 2,
+      // src: img,
+      despcipcion: 'App De Tareas ToDoList',
+  },
+  {
+      id: 3,
+      // src: img,
+      despcipcion: 'Página de Galería',
+  },
+  {
+      id: 4,
+      // src: img,
+      despcipcion: 'App Rick and Morty',
+  },
+  {
+      id: 5,
+      // src: img,
+      despcipcion: 'App PokeApi',
+  },
+  {
+      id: 6,
+      // src: img,
+      despcipcion: 'Página de Galería',
+  },
+]
     
 
   return (
-    <div name="experiencia" className="bg-gradient-to-b from-gray-800 to-black  w-full text-white
-    md:h-screen">
-
-<div className="max-w-screen-lg mx-auto p-4  justify-center w-full h-full text-white">
+    <div
+    name="experiencia"
+    className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-10"
+  >
+    <div className="max-w-screen-lg mx-auto p-4  justify-center w-full h-full text-white">
       <div>
         <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
           Perfil
@@ -160,7 +166,9 @@ const Experiencia = () => {
     </div>
     </div> */}
     </div>
-   </div>
+
+    
+  </div>
     
   );
 };
