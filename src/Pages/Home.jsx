@@ -3,6 +3,8 @@ import imgFondo from "../assets/img-home/fondo.png";
 import imgFoto from "../assets/img-logos/foto-logo.png";
 import imgFoto1 from "../assets/img-logos/logo-nom.png";
 
+
+
 import { Link } from "react-scroll"
 
 // importar icono
@@ -13,7 +15,12 @@ import { Link } from "react-scroll"
   /* <img src={imgFondo} alt="" /> */
 }
 
+
 const Home = () => {
+
+  
+
+
   return (
     <div
       name="Inicio"
@@ -24,7 +31,7 @@ const Home = () => {
       >
         {/* md:flex-row text-white */}
 
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center md:h-full">
             {/* <h3 className="text-2xl sm:text-5xl font-bold text-white"> Hola, Soy</h3> */}
           {/* <h2 className="text-4xl sm:text-7xl font-bold text-white">Hola icono,ssss sossss
            sssssss  ssssssssy </h2> */}
@@ -35,7 +42,7 @@ const Home = () => {
           <img
             src={imgFoto1}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto  w-full"
           />
           
           {/* <h1> Stiwar Mosquera </h1> 
@@ -53,7 +60,7 @@ const Home = () => {
 
           <div className=" grid grid-cols-2 sm:grid-cols-3 items-center">
             <button className="group text-white w-fit px-6 py-3 my-2 flex 
-            items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer">
+            items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer" >
               {/* shadow-md shadow-orange-600 */}
               Descarga CV
               {/* <span className="group-hover:rotate-90 duration-300">
