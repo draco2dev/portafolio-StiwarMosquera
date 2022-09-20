@@ -35,7 +35,7 @@ const Home = () => {
             {/* <h3 className="text-2xl sm:text-5xl font-bold text-white"> Hola, Soy</h3> */}
           {/* <h2 className="text-4xl sm:text-7xl font-bold text-white">Hola icono,ssss sossss
            sssssss  ssssssssy </h2> */}
-           <p className=" pt-0 text-2xl sm:text-4xl sm:pb-4 font-bold text-white text-center">
+           <p className=" pt-20 text-2xl sm:text-4xl sm:pb-4 font-bold text-white text-center">
            Hola, Soy 
           </p>
           
@@ -53,7 +53,7 @@ const Home = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             adipisci iusto tempora, 
           </p> */}
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-gray-500 py-4 max-w-md ">
             Desarrollador, 
             Apasionado por los proyectos que emprende.
           </p>
@@ -73,11 +73,12 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div>
+        <div className="">
+          
           <img
             src={imgFoto}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl py-2 mx-auto w-5/3 md:w-full"
           />
         </div> 
       </div>
