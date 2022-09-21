@@ -1,6 +1,8 @@
 // importacion de los estilos
 import "./index.css";
 
+import btnWhastpps from "./Components/btnWhastpps";
+
 // importacion del componente navbar
 import Navbar from "./Pages/Navbar";
 import Home from "./Pages/Home";
@@ -12,9 +14,12 @@ import Experiencia from "./Pages/Experiencia";
 import Footer from "./Pages/Footer";
 
 
+
+
 function App() {
   return (
     <div>
+      <btnWhastpps />
       <Navbar />
       <Home />
       <About />
