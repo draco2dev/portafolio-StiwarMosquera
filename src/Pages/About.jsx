@@ -3,13 +3,13 @@ import React from "react";
 const About = () => {
   return (
     <div
-      name="SobreMi"
+      name="Sobre Mi"
       className="w-full h-screen bg-gradient-to-b from-white to-gray-800 text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2 ">
           <p className=" text-black text-4xl font-bold inline border-b-4 border-gray-500">
-            Sobre mi
+            Sobre Mi
           </p>
         </div>
         <p className="text-xl mt-20">

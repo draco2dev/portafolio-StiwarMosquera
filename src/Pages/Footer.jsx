@@ -1,6 +1,38 @@
 import React from "react";
 import imgFoto1 from "../assets/img-logos/logo-nom.png";
 
+// dsplazamiento en la barra de navegacion
+import { Link } from "react-scroll";
+
+//arreglo para los link
+const links = [
+  {
+    id: 1,
+    link: "Inicio",
+    style: "text-white",
+  },
+  {
+    id: 2,
+    link: "Sobre Mi",
+    style: "text-white",
+  },
+  {
+    id: 3,
+    link: "experiencia",
+    style: "text-white",
+  },
+  {
+    id: 4,
+    link: "portafolio",
+    style: "text-white",
+  },
+  {
+    id: 5,
+    link: "Contacto",
+    style: "text-white",
+  },
+];
+
 const Footer = () => {
   return (
     <>
@@ -144,41 +176,32 @@ const Footer = () => {
 
                   <nav class="mt-4">
                     <ul class="space-y-1.5 text-sm">
-                      <li>
-                        <a
-                          class="text-white transition hover:text-white/75"
-                          href="/"
-                        >
-                          Inicio
-                        </a>
-                      </li>
 
-                      <li>
-                        <a
-                          class="text-white transition hover:text-white/75"
-                          href="/"
-                        >
-                          Sobre Mi
-                        </a>
-                      </li>
 
-                      <li>
-                        <a
-                          class="text-white transition hover:text-white/75"
-                          href="/"
-                        >
-                          Expeiencia
-                        </a>
-                      </li>
 
-                      <li>
-                        <a
-                          class="text-white transition hover:text-white/75"
-                          href="/"
-                        >
-                          Portafolio
-                        </a>
-                      </li>
+
+
+                    {links.map(({ id, link, style }) => (
+          <li
+            key={id}
+            className={`transition hover:text-black/75 ${style}`}
+            
+          >
+            {/* {link} */}
+            <Link to={link} smooth duration={500}>
+              {link}
+            </Link>
+          </li>
+        ))}
+
+
+
+
+
+
+
+
+                      
                     </ul>
                   </nav>
                 </div>

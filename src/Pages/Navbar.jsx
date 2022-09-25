@@ -19,7 +19,7 @@ const links = [
   },
   {
     id: 2,
-    link: "SobreMi",
+    link: "Sobre Mi",
     style: "text-black",
   },
   {
