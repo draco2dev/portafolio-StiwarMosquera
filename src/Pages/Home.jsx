@@ -20,18 +20,23 @@ import pdf from '../PDFdowload/CV-STIWAR-MOSQUERA.pdf';
 
 const Home = () => {
 
-  const handleLink = function(event){
+  const handleLink = function(){
     window.location.href = "https://github.com/draco2dev/";
   }
-
-  const handleClick = (url, filename) => {
-    axios.get(url, {
-      responseType: 'blob',
-    })
-    .then((res) => {
-      fileDownload(res.data, filename)
-    })
+  const handleCLink = function(){
+    window.location.href = "https://drive.google.com/file/d/1qJhqR3-4WBYkbkCNVMu5DgxIIWri3ot6/view?usp=sharing";
   }
+
+  
+
+  // const handleClick = (url, filename) => {
+  //   axios.get(url, {
+  //     responseType: 'blob',
+  //   })
+  //   .then((res) => {
+  //     fileDownload(res.data, filename)
+  //   })
+  // }
 
   return (
     <div
@@ -70,7 +75,8 @@ const Home = () => {
 
           <div className=" grid grid-cols-2 sm:grid-cols-3 items-center">
             <button
-            onClick={() => {() => handleClick('https://avatars.githubusercontent.com/u/9919?s=280&v=4', 'sample')}}
+            // onClick={() => {() => handleClick('https://avatars.githubusercontent.com/u/9919?s=280&v=4', 'sample')}}
+            onClick={handleCLink}
               className="group text-white w-fit px-6 py-3 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer"
 
