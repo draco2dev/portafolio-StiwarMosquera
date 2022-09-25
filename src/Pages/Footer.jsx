@@ -109,14 +109,14 @@ const Footer = () => {
 
               <div class="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:mt-12">
                 <div class="text-center lg:text-left">
-                  <p class="text-lg font-medium text-white">Navega</p>
+                  <p class=" cursor-pointer text-lg font-medium text-white">Navega</p>
 
                   <nav class="mt-4">
                     <ul class="space-y-1.5 text-sm">
                       {links.map(({ id, link, style }) => (
                         <li
                           key={id}
-                          className={`transition hover:text-black/75 ${style}`}
+                          className={` cursor-pointer transition hover:text-black/75 ${style}`}
                         >
                           {/* {link} */}
                           <Link to={link} smooth duration={500}>
@@ -129,7 +129,7 @@ const Footer = () => {
                 </div>
 
                 <div class="text-center lg:text-left">
-                  <p class="text-lg font-medium text-white">Services</p>
+                  <p class=" cursor-pointer text-lg font-medium text-white">Services</p>
 
                   <nav class="mt-4">
                     <ul class="space-y-1.5 text-sm">

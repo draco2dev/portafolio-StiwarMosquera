@@ -13,9 +13,9 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Soy desarrollador con dos de experiencia, mi enfoque esta sobre el
-          desarrollo front-end aunque ya he tenido la oportunidad de interactuar
-          con tecnologías de back-end como java, php, también estoy
+          Soy desarrollador con 1 año de experiencia , Mi enfoque esta sobre el
+          desarrollo Front-End aunque ya he tenido la oportunidad de interactuar
+          con tecnologías de Back-End como java y php uyilizando framework como Laravel, también estoy
           familiarizado con metodologías agiles como SCRUM ..{" "}
         </p>
         <br />
