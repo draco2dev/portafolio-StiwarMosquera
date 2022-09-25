@@ -10,6 +10,8 @@ import { Link } from "react-scroll";
 
 import pdf from '../PDFdowload/CV-STIWAR-MOSQUERA.pdf';
 
+import Typewriter from 'typewriter-effect';
+
 // importar icono
 // import {  } from "react-icons/md";
 // se llmaa <BiArrowFromBottom />
@@ -61,6 +63,8 @@ const Home = () => {
             className="rounded-2xl mx-auto  w-full"
           />
 
+          
+
           {/* <h1> Stiwar Mosquera </h1> 
           
           max-w-md 
@@ -70,7 +74,23 @@ const Home = () => {
             adipisci iusto tempora, 
           </p> */}
           <p className="text-gray-500 py-4 max-w-md ">
-            Desarrollador, Apasionado por los proyectos que emprende.
+          <Typewriter 
+          options={{ loop: true, delay: 50 }}
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("Desarrollador Wed.")
+              .pauseFor(1500)
+              .deleteAll()
+              .typeString("Desarrollador Front-End.")
+              .pauseFor(1500)
+              .deleteAll()
+              .typeString("Desarrollador Back-End.")
+              .pauseFor(1500)
+              .deleteAll()
+              .pauseFor(800)
+              .start();
+          }}
+        />
           </p>
 
           <div className=" grid grid-cols-2 sm:grid-cols-3 items-center">
