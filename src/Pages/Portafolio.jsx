@@ -33,6 +33,7 @@ const Portafolio = () => {
             id: 5,
             src: img3,
             despcipcion: 'App PokeApi',
+
         },
         {
             id: 6,
@@ -54,14 +55,13 @@ const Portafolio = () => {
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
         {
             portafolio.map(({id, src, despcipcion}) =>(
-                // shadow-orange-500
-                // shadow-gray-600
+            
                 <div key={id} className="shadow-md shadow-orange-600 rounded-lg">
                     <img src={src} alt="" className="rounded-md duration-200 hover:scale-105"/>
     
                     
                     <div className="flex items-center justify-center">
-                        {/* <p className="text-4xl font-bold inline border-b-4 border-gray-500"> */}
+                   
                         <p className="py-1">
                             {despcipcion}
                         </p>

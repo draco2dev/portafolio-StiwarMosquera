@@ -42,53 +42,7 @@ const Footer = () => {
             <div class="py-4 border-b border-gray-800 lg:border-b-0 lg:border-l lg:order-last lg:py-24 lg:pl-12">
               <div class="mt-12 space-y-6 lg:mt-0">
                 <span class="bg-orange-500 rounded lg:h-1 lg:w-10 lg:block"></span>
-
-                {/* <div class="text-center lg:text-left">
-            <h5 class="text-2xl font-medium text-white">Request a Demo</h5>
-
-            <p
-              class="max-w-md mx-auto mt-4 text-sm leading-relaxed text-gray-400 lg:mx-0"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Veritatis, harum deserunt nesciunt praesentium, repellendus eum
-              perspiciatis ratione pariatur a aperiam eius numquam doloribus
-              asperiores sunt.
-            </p>
-          </div> */}
-
-                {/* <form class="mt-6">
-            <div class="relative max-w-lg mx-auto lg:mx-0">
-              <label class="sr-only" for="email"> Email </label>
-
-              <input
-                class="w-full py-4 pl-3 pr-16 text-sm text-white bg-gray-800 border-none rounded-md"
-                id="email"
-                type="email"
-                placeholder="Enter your email"
-              />
-
-              <button
-                class="absolute p-3 transition -translate-y-1/2 bg-indigo-600 hover:bg-indigo-700 text-white rounded top-1/2 right-1.5"
-                type="button"
-              >
-                <svg
-                  class="w-4 h-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                  />
-                </svg>
-              </button>
-            </div>
-          </form> */}
-
+                
                 <div class="max-w-screen-xl px-4  mx-auto sm:px-6 lg:px-8">
                   <div class="text-center lg:text-left">
                     {/* <div class="max-w-lg mx-auto text-center"> */}
@@ -108,25 +62,8 @@ const Footer = () => {
                         <input
                           type="email"
                           class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                          placeholder="Enter email"
+                          placeholder="Enter email" required
                         />
-
-                        <span class="absolute inset-y-0 inline-flex items-center right-4">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="w-5 h-5 text-gray-400"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207"
-                            />
-                          </svg>
-                        </span>
                       </div>
                     </div>
 
@@ -138,7 +75,7 @@ const Footer = () => {
                         <input
                           type="txt"
                           class="w-full p-4 pr-12 text-sm border-gray-200 rounded-lg shadow-sm"
-                          placeholder="Mensaje"
+                          placeholder="Mensaje" required
                         />
                       </div>
                     </div>
@@ -176,32 +113,17 @@ const Footer = () => {
 
                   <nav class="mt-4">
                     <ul class="space-y-1.5 text-sm">
-
-
-
-
-
-                    {links.map(({ id, link, style }) => (
-          <li
-            key={id}
-            className={`transition hover:text-black/75 ${style}`}
-            
-          >
-            {/* {link} */}
-            <Link to={link} smooth duration={500}>
-              {link}
-            </Link>
-          </li>
-        ))}
-
-
-
-
-
-
-
-
-                      
+                      {links.map(({ id, link, style }) => (
+                        <li
+                          key={id}
+                          className={`transition hover:text-black/75 ${style}`}
+                        >
+                          {/* {link} */}
+                          <Link to={link} smooth duration={500}>
+                            {link}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </nav>
                 </div>

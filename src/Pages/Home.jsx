@@ -1,44 +1,16 @@
 import React from "react";
-import imgFondo from "../assets/img-home/fondo.png";
 import imgFoto from "../assets/img-logos/foto-logo.png";
 import imgFoto1 from "../assets/img-logos/logo-nom.png";
-
-import axios from 'axios'
-import fileDownload from 'js-file-download'
-
-import { Link } from "react-scroll";
-
-import pdf from '../PDFdowload/CV-STIWAR-MOSQUERA.pdf';
-
-import Typewriter from 'typewriter-effect';
-
-// importar icono
-// import {  } from "react-icons/md";
-// se llmaa <BiArrowFromBottom />
-
-{
-  /* <img src={imgFondo} alt="" /> */
-}
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
-
-  const handleLink = function(){
+  const handleLink = function () {
     window.location.href = "https://github.com/draco2dev/";
-  }
-  const handleCLink = function(){
-    window.location.href = "https://drive.google.com/file/d/1qJhqR3-4WBYkbkCNVMu5DgxIIWri3ot6/view?usp=sharing";
-  }
-
-  
-
-  // const handleClick = (url, filename) => {
-  //   axios.get(url, {
-  //     responseType: 'blob',
-  //   })
-  //   .then((res) => {
-  //     fileDownload(res.data, filename)
-  //   })
-  // }
+  };
+  const handleCLink = function () {
+    window.location.href =
+      "https://drive.google.com/file/d/1qJhqR3-4WBYkbkCNVMu5DgxIIWri3ot6/view?usp=sharing";
+  };
 
   return (
     <div
@@ -62,53 +34,36 @@ const Home = () => {
             alt="my profile"
             className="rounded-2xl mx-auto  w-full"
           />
-
-          
-
-          {/* <h1> Stiwar Mosquera </h1> 
-          
-          max-w-md 
-          */}
-          {/* <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            adipisci iusto tempora, 
-          </p> */}
           <p className="text-gray-500 py-4 max-w-md ">
-          <Typewriter 
-          options={{ loop: true, delay: 50 }}
-          onInit={(typewriter) => {
-            typewriter
-              .typeString("Desarrollador Wed.")
-              .pauseFor(1500)
-              .deleteAll()
-              .typeString("Desarrollador Front-End.")
-              .pauseFor(1500)
-              .deleteAll()
-              .typeString("Desarrollador Back-End.")
-              .pauseFor(1500)
-              .deleteAll()
-              .pauseFor(800)
-              .start();
-          }}
-        />
+            <Typewriter
+              options={{ loop: true, delay: 50 }}
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Desarrollador Wed.")
+                  .pauseFor(1500)
+                  .deleteAll()
+                  .typeString("Desarrollador Front-End.")
+                  .pauseFor(1500)
+                  .deleteAll()
+                  .typeString("Desarrollador Back-End.")
+                  .pauseFor(1500)
+                  .deleteAll()
+                  .pauseFor(800)
+                  .start();
+              }}
+            />
           </p>
 
           <div className=" grid grid-cols-2 sm:grid-cols-3 items-center">
             <button
-            // onClick={() => {() => handleClick('https://avatars.githubusercontent.com/u/9919?s=280&v=4', 'sample')}}
-            onClick={handleCLink}
+              onClick={handleCLink}
               className="group text-white w-fit px-6 py-3 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
-
-            
             >
-              {/* <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV-STIWAR-MOSQUERA.pdf"></a> */}
-
-              {/* shadow-md shadow-orange-600 */}
               Descarga CV
-              
             </button>
-            <button onClick={handleLink}
+            <button
+              onClick={handleLink}
               className="group text-white w-fit px-6 py-3 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
             >
@@ -116,7 +71,7 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div className="">
+        <div>
           <img
             src={imgFoto}
             alt="my profile"
