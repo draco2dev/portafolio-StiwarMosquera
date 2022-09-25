@@ -126,7 +126,7 @@ const Home = () => {
       </div>
       <div>
         <a
-          href="https://api.whatsapp.com/send?phone=+57313659056"
+          href="https://api.whatsapp.com/send?phone=+573136590568"
           class=""
           target="_blank"
         >
