@@ -67,8 +67,8 @@ const Portafolio = () => {
                         </p>
                     </div>
                     <div className="flex items-center justify-center">
-                        <button className="border w-1/2 px-6 py-3 m-4 bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105">Demo</button>
-                        <button className="border w-1/2 px-6 py-3 m-4 bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105">Github</button>
+                        <button className="border w-1/2 px-6 py-3 m-4 bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105" >Demo</button>
+                        <button className="border w-1/2 px-6 py-3 m-4 bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105" >Github</button>
                     </div>
                 </div>
            

@@ -78,7 +78,7 @@ const Home = () => {
             // onClick={() => {() => handleClick('https://avatars.githubusercontent.com/u/9919?s=280&v=4', 'sample')}}
             onClick={handleCLink}
               className="group text-white w-fit px-6 py-3 my-2 flex 
-            items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer"
+            items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
 
             
             >
@@ -90,7 +90,7 @@ const Home = () => {
             </button>
             <button onClick={handleLink}
               className="group text-white w-fit px-6 py-3 my-2 flex 
-            items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer"
+            items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
             >
               GitHub
             </button>
@@ -112,7 +112,7 @@ const Home = () => {
         >
           {/* <i class="fa fa-whatsapp icono"></i> */}
           <svg
-            class=" btn-wsp w-5 h-5 text-green-500 fill-current"
+            class=" btn-wsp w-5 h-5 text-green-500 fill-current bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
