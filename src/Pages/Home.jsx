@@ -3,7 +3,12 @@ import imgFondo from "../assets/img-home/fondo.png";
 import imgFoto from "../assets/img-logos/foto-logo.png";
 import imgFoto1 from "../assets/img-logos/logo-nom.png";
 
+import axios from 'axios'
+import fileDownload from 'js-file-download'
+
 import { Link } from "react-scroll";
+
+import pdf from '../PDFdowload/CV-STIWAR-MOSQUERA.pdf';
 
 // importar icono
 // import {  } from "react-icons/md";
@@ -14,6 +19,20 @@ import { Link } from "react-scroll";
 }
 
 const Home = () => {
+
+  const handleLink = function(event){
+    window.location.href = "https://github.com/draco2dev/";
+  }
+
+  const handleClick = (url, filename) => {
+    axios.get(url, {
+      responseType: 'blob',
+    })
+    .then((res) => {
+      fileDownload(res.data, filename)
+    })
+  }
+
   return (
     <div
       name="Inicio"
@@ -51,16 +70,19 @@ const Home = () => {
 
           <div className=" grid grid-cols-2 sm:grid-cols-3 items-center">
             <button
+            onClick={() => {() => handleClick('https://avatars.githubusercontent.com/u/9919?s=280&v=4', 'sample')}}
               className="group text-white w-fit px-6 py-3 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer"
+
+            
             >
+              {/* <a href={pdf} target="_blank" rel="noopener noreferrer" download="CV-STIWAR-MOSQUERA.pdf"></a> */}
+
               {/* shadow-md shadow-orange-600 */}
               Descarga CV
-              {/* <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-              </span> */}
+              
             </button>
-            <button
+            <button onClick={handleLink}
               className="group text-white w-fit px-6 py-3 my-2 flex 
             items-center rounded-md bg-gradient-to-r from-[#f79729] to-orange-500 cursor-pointer"
             >
