@@ -1,25 +1,32 @@
 import React from "react";
 
-import html from "../assets/img-experiencia/html.png";
+import logosena from "../assets/img-experiencia/logosena.png";
+import fucla from "../assets/img-experiencia/fucla.png";
+import campus from "../assets/img-experiencia/campus.jpg";
+import camara from "../assets/img-experiencia/camara.jpg";
+import logsolarisift from "../assets/img-experiencia/logsolarisift.png";
+
+
+
 // import html from "../assets"
 
 const Experiencia = () => {
   const techs = [
     {
       id: 1,
-      src: html,
+      src: logosena,
       title: "TECNOLOGO EN SISTEMAS - SENA",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: html,
+      src: fucla,
       title: "INGENIERO DE SISTEMAS - UNICLARETIANA",
       style: "shadow-orange-500",
     },
     {
       id: 3,
-      src: html,
+      src: campus,
       title: "DIPLOMADO {REACT} ",
       style: "shadow-orange-500",
     },
@@ -28,13 +35,13 @@ const Experiencia = () => {
   const Expe = [
     {
       id: 1,
-      src: html,
+      src: camara,
       title: "CAMARA DE COMERCIO - 2020",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: html,
+      src: logsolarisift,
       title: "SOLARISSOFT 2019 ",
       style: "shadow-orange-500",
     },
@@ -127,7 +134,7 @@ const Experiencia = () => {
                   key={id}
                   className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
                 >
-                  {/* <img src={src} alt="" className="w-20 mx-auto" /> */}
+                  <img src={src} alt="" className="w-20 mx-auto" />
                   <p className="mt-4">{title}</p>
                 </div>
               ))}
@@ -143,7 +150,7 @@ const Experiencia = () => {
                   key={id}
                   className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
                 >
-                  {/* <img src={src} alt="" className="w-20 mx-auto" /> */}
+                  <img src={src} alt="" className="w-20 mx-auto" />
                   <p className="mt-4">{title}</p>
                 </div>
               ))}

@@ -26,7 +26,7 @@ const Home = () => {
           {/* <h2 className="text-4xl sm:text-7xl font-bold text-white">Hola icono,ssss sossss
            sssssss  ssssssssy </h2> */}
           <p className=" pt-20 text-2xl sm:text-4xl sm:pb-4 font-bold text-white text-center">
-            Hola, Soy
+            Hola, Soy 👋
           </p>
 
           <img
