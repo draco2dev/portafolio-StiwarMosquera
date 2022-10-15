@@ -39,7 +39,7 @@ const Footer = () => {
       <footer name="Contacto" class="bg-gradient-to-b from-white to-gray-900">
         <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div class="lg:grid lg:grid-cols-2">
-            <div class="py-4 border-b border-gray-800 lg:border-b-0 lg:border-l lg:order-last lg:py-24 lg:pl-12">
+            <div class="py-4 border-b lg:border-b-0 lg:border-l lg:order-last lg:py-24 lg:pl-12">
               <div class="mt-12 space-y-6 lg:mt-0">
                 <span class="bg-orange-500 rounded lg:h-1 lg:w-10 lg:block"></span>
                 

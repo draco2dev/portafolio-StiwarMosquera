@@ -16,7 +16,7 @@ const Home = () => {
     <div
       name="Inicio"
       // bg-gradient-to-b from-black via-black to-gray-800
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 fondoHome"
+      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 fondoHome"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         {/* md:flex-row text-white */}
@@ -82,12 +82,12 @@ const Home = () => {
       <div>
         <a
           href="https://api.whatsapp.com/send?phone=+573136590568"
-          class=""
+         
           target="_blank"
         >
           {/* <i class="fa fa-whatsapp icono"></i> */}
           <svg
-            class=" btn-wsp w-5 h-5 text-green-500 fill-current bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
+            className=" btn-wsp w-5 h-5 text-green-500 fill-current bg-orange-400  hover:bg-orange-500 ease-in-out duration-75 hover:scale-105"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
