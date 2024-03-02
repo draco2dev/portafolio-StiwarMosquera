@@ -13,10 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Soy desarrollador con 1 año de experiencia , Mi enfoque esta sobre el
-          desarrollo Front-End aunque ya he tenido la oportunidad de interactuar
-          con tecnologías de Back-End como java y php uyilizando framework como Laravel, también estoy
-          familiarizado con metodologías agiles como SCRUM ..{" "}
+          Ingeniero de Sistemas y Desarrollador Front-End con un sólido trasfondo en ingeniería de software. Apasionado por la creación de experiencias digitales impactantes. Poseo habilidades avanzadas en el desarrollo Front-End utilizando tecnologías como React_JS, con un año de experiencia laboral en proyectos multidisciplinarios. Amplié mi formación con un diplomado en React_JS y cuento con conocimientos en Back-End (Java, PHP - Laravel). Comprometido con la excelencia técnica y orientado a resultados, estoy preparado para enfrentar desafíos complejos y contribuir al éxito de equipos ágiles.{" "}
         </p>
         <br />
         {/* <p className="text-xl ">
